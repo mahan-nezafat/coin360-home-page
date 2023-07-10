@@ -1,0 +1,3044 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media-query.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="icon" href="./images/backLogo.svg">
+    <title>Cryptocurrency Prices Heatmap, Market Cap, Charts & Widget – COIN360</title>
+</head>
+
+<body>
+    
+    <header>
+        <nav>
+            <section class="nav-bar">
+
+                <div class="flex m-0">
+                    <div class="hamburger-menu">
+                        <a><img src="./images/icon-burger.svg" alt="burger"></a>
+                    </div>
+    
+                    <div class="logo">
+                        <a><img src="./images/logo.svg" alt="logo"></a>
+                    </div>
+                </div>
+                
+
+                <div class="nav-bar-title">
+                    <a><p>Coins</p></a>
+                </div>
+
+                <div class="nav-bar-title">
+                    <a><p>Exchanges</p></a>
+
+                </div>
+
+                <div class="nav-bar-title">
+                    <a>
+                        <p>NFT</p>
+                        <p class="beta">BETA</p>
+                    </a>
+                </div>
+
+                <div class="nav-bar-title">
+                    <a>
+                        <p>News</p>
+                        <p class="new">NEW</p>
+                    </a>
+                </div>
+
+                <div class="nav-bar-title">
+                    <a><p>Watchlist</p></a>
+
+                </div>
+
+                <div class="nav-bar-title">
+                    <a class="advertising-link"><p class="advertising">Advertising</p></a>
+
+                </div>
+
+                <div class="nav-bar-title">
+                    <a class="newsletter-link"><p class="newsletter">Newsletter</p></a>
+
+                </div>
+
+
+                <div class="more-titles" id="overlay-btn">
+                    <a><i class="fa-solid fa-ellipsis-h"></i></a>
+                    <div class="overlay">
+                        <div class="overlay-container">
+                            <div class="overlay-column">
+                                <div class="overlay-item">
+                                    <h3>Charts</h3>
+                                    <p>Explore more data on the digital asset markets with comprehensive graphs.</p>
+                                </div>
+                            </div>
+                            <div class="overlay-column">
+                                <div class="overlay-item">
+                                    <h3>Glossary</h3>
+                                    <p>Learn about the most commonly used cryptocurrency terms and their meanings in our glossary</p>
+                                </div>
+                                <div class="overlay-item">
+                                    <h3>Events</h3>
+                                    <p>Find out about upcoming crypto events in this section.</p>
+                                </div>
+                                
+                            </div>
+                            <div class="overlay-column">
+                                <div class="overlay-item">
+                                    <h3>about</h3>
+                                    <p>Explore the general essentials of COIN360.</p>
+                                </div>
+                                
+                                <div class="overlay-item">
+                                    <h3>FAQ</h3>
+                                    <p>Find answers to the most common questions regarding COIN360.</p>
+                                </div>
+                                
+                            </div>
+                            <div class="overlay-column">
+                                <div class="overlay-item">
+                                    <h3>Press Releases</h3>
+                                    <p>Stay tuned for crypto company updates.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex m-0 two-in-one">
+                    <div class="crypto-lottery">
+                    
+                        <a><img width="100px" src="./images/cryptoslots.svg" alt="lottery">
+                            
+                            <div class="lottery-detail">
+                                <p>133% bonus</p>
+                                <p>25 free</p>
+                                <p>Jackpot spins</p>
+        
+                            </div>
+                            
+                        </a>
+                        
+                       
+                    </div>
+    
+                    <div class="nav-search">
+                        <form action="#">
+                            <input type="text" placeholder="Search...">
+                            <i class="fa-solid fa-search"></i>
+                        </form>
+                    </div>
+                </div>
+                
+
+                <div class="nav-socials">
+                    <a><i class="fa-brands fa-telegram"></i></a>
+                    <a><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                
+                
+                <div class="flex m-0">
+                    <div class="filter">
+                        <a><img src="./images/icon-filter.svg" alt="filter"></a>
+                    </div>
+    
+                    <div class="change-page">
+                        <a><img src="./images/icon-table.svg" alt=""></a>
+                    </div>
+                </div>
+                
+            </section>
+
+            <section class="menu">
+                    <div class="roll-left-btn">
+                        <i class="fa-solid fa-chevron-left"></i>
+                        <div class="show-info">
+                            <p>Hide filters</p>
+                        </div>
+                    </div>
+                    <div class="retract">
+                        <div class="roll-down">
+                            <div class="title">
+                                <p>Type:</p>
+                                <span>Coins and tokens</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="content">
+                                <ul>
+                                    <li><i class="fa-solid fa-check"></i><a class="pad-0">Coins and tokens</a></li>
+                                    <li><a>Coins</a></li>
+                                    <li><a>Tokens</a></li>
+                                </ul>
+                                
+
+                            </div>
+                        </div>
+                        <div class="roll-down">
+                            <div class="title">
+                                <p>Performance:</p>
+                                <span>1hour</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="content">
+                                
+                                <ul>
+                                    <li><i class="fa-solid fa-check"></i><a class="pad-0">1 hour</a></li>
+                                    <li><a>1 day</a></li>
+                                    <li><a>7 days</a></li>
+                                    <li><a>1 month</a></li>
+                                    <li><a>Select custom date...</a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="roll-down">
+                            <div class="title">
+                                <p>Gainers & Losers:</p>
+                                <span>All</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="content">
+                                <ul>
+                                    <li><i class="fa-solid fa-check"></i><a class="pad-0">All</a></li>
+                                    <li><a>50 losers</a></li>
+                                    <li><a>100 losers</a></li>
+                                    <li><a>200 losers</a></li>
+                                    <li><a>50 gainers</a></li>
+                                    <li><a>100 gainers</a></li>
+                                    <li><a>200 gainers</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="roll-down">
+                            <div class="title">
+                                <p>Block Size:</p>
+                                <span>Market Cap</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="content">
+                                <ul>
+                                    <li><i class="fa-solid fa-check"></i><a class="pad-0">Market Cap</a></li>
+                                    <li><a>Volume</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="roll-down">
+                            <div class="title">
+                                <span>M.cap range</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="content">
+                                <div class="range-result">
+                                    <p>from<span class="min-result">0</span>to<span class="max-result">435.6b</span></p>
+                                    <div class="buttons">
+                                        <button id="reset-range"><a>Reset</a></button>
+                                        <button><a>apply</a></button>
+                                    </div>
+                                </div>
+                                <div class="slider-range">
+                                    <div class="slider-line">
+                                            <!-- <a class="slider-rail-left"></a> -->
+                                            <div class="dot-1"></div>
+                                            <div class="dot-2"></div>
+                                            <div class="dot-3"></div>
+                                            <div class="dot-4"></div>
+                                            <div class="dot-5"></div>
+                                            <div class="dot-6"></div>
+                                            <div class="price-1">0</div>
+                                            <div class="price-2">100</div>
+                                            <div class="price-3">10K</div>
+                                            <div class="price-4">1M</div>
+                                            <div class="price-5">1B</div>
+                                            <div class="price-6">435.6B</div>
+                                            <!-- <a class="slider-rail-right"></a> -->
+                                            <input type="range" class="range-left" min="0" max="4356000" value="0" step="1000">
+                                            <input type="range" class="range-right" min="0" max="4356000" value="4356000" step="1000">
+
+                                    </div> 
+                                </div>
+                                
+
+                            </div>
+                        </div>
+                        <div class="roll-down">
+                            <div class="title">
+                                <p>Hide</p>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="content">
+                                <div class="search-coin">
+                                    <input id="search" type="text" placeholder="Search">
+                                    <button id="reset"><a>Reset</a></button>
+                                </div>
+
+                                <div class="coins">
+                                    <ul>
+                                        <li>
+                                            <i class="fa-solid fa-minus"></i>
+                                            <img src="./images/bitcoin.png" alt="coin">
+                                            <a>BTC</a>
+                                            <p>Bitcoin</p>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-minus"></i>
+
+                                            <img src="./images/bnb.png" alt="coin">
+
+                                            <a>BNB</a>
+                                            <p>Binance Coin</p>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-minus"></i>
+
+                                            <img src="./images/busd.png" alt="coin">
+
+                                            <a>BUSD</a>
+                                            <p>Binance USD</p>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-minus"></i>
+
+                                            <img src="./images/matic.png" alt="coin">
+
+                                            <a>MATIC</a>
+                                            <p>Polygon</p>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-minus"></i>
+
+                                            <img src="./images/shiba.png" alt="coin">
+
+                                            <a>SHIIB</a>
+                                            <p>SHIBA INU</p>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-minus"></i>
+
+                                            <img src="./images/tron.png" alt="coin">
+
+                                            <a>TRX</a>
+                                            <p>TRON</p>
+                                        </li>
+                                        
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <i class="fa-solid fa-minus"></i>
+                                            <img src="./images/eth.png" alt="coin">
+                                            <a>ETH</a>
+                                            <p>Ethereum</p>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-minus"></i>
+
+                                            <img src="./images/usdc.png" alt="coin">
+
+                                            <a>USDC</a>
+                                            <p>USD Coin</p>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-minus"></i>
+
+                                            <img src="./images/ada.png" alt="coin">
+                                            <a>ADA</a>
+                                            <p>Cardano</p>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-minus"></i>
+
+                                            <img src="./images/sol.png" alt="coin">
+                                            <a>SOL</a>
+                                            <p>Solana</p>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-minus"></i>
+
+                                            <img src="./images/Ltc.png" alt="coin">
+                                            <a>LTC</a>
+                                            <p>Litecoin</p>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-minus"></i>
+
+                                            <img src="./images/dai.png" alt="coin">
+                                            <a>DAI</a>
+                                            <p>Dai</p>
+                                        </li>
+                                        
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <i class="fa-solid fa-minus"></i>
+                                            <img src="./images/usdt.png" alt="coin">
+                                            <a>USDT</a>
+                                            <p>Tether</p>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-minus"></i>
+
+                                            <img src="./images/xrp.png" alt="coin">
+                                            <a>XRP</a>
+                                            <p>Ripple</p>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-minus"></i>
+
+                                            <img src="./images/doge.png" alt="coin">
+                                            <a>DOGE</a>
+                                            <p>Dogecoin</p>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-minus"></i>
+
+                                            <img src="./images/dot.png" alt="coin">
+                                            <a>DOT</a>
+                                            <p>Polkadot</p>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-minus"></i>
+
+                                            <img src="./images/avax.png" alt="coin">
+                                            <a>AVAX</a>
+                                            <p>Avalanch</p>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-minus"></i>
+
+                                            <img src="./images/steth.png" alt="coin">
+                                            <a>STETH</a>
+                                            <p>Lido stETH</p>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="reset"><p>Reset</p></div>
+                    </div>    
+                    <div class="roll-down">
+                        <div class="title">
+                            <img src="./images/USD.svg" alt="currency">
+                            <p>USD</p>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="content">
+                            <div class="currency">
+                                <ul>
+                                    <li>
+                                        <img src="./images/USD.svg" alt="currency">
+                                        <a>USD</a>
+                                    </li>
+
+                                    <li>
+                                        <img src="./images/CNY.svg" alt="currency">
+                                        <a>CNY</a>
+                                    </li>
+                                    
+                                    <li>
+                                        <img src="./images/BRL.svg" alt="currency">
+                                        <a>BRL</a>
+                                    </li>
+
+                                    <li>
+                                        <img src="./images/IRR.svg" alt="currency">
+                                        <a>IRR</a>
+                                    </li>
+
+                                    <li>
+                                        <img src="./images/SGD.svg" alt="currency">
+                                        <a>SGD</a>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <li>
+                                        <img src="./images/EUR.svg" alt="currency">
+                                        <a>EUR</a>
+                                    </li>
+
+                                    <li>
+                                        <img src="./images/JPY.svg" alt="currency">
+                                        <a>JPY</a>
+                                    </li>
+                                    
+                                    <li>
+                                        <img src="./images/TRY.svg" alt="currency">
+                                        <a>TRY</a>
+                                    </li>
+
+                                    <li>
+                                        <img src="./images/UAH.svg" alt="currency">
+                                        <a>UAH</a>
+                                    </li>
+
+                                    <li>
+                                        <img src="./images/HKD.svg" alt="currency">
+                                        <a>HKD</a>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <li>
+                                        <img src="./images/GBP.svg" alt="currency">
+                                        <a>GBP</a>
+                                    </li>
+
+                                    <li>
+                                        <img src="./images/CAD.svg" alt="currency">
+                                        <a>CAD</a>
+                                    </li>
+                                    
+                                    <li>
+                                        <img src="./images/RUB.svg" alt="currency">
+                                        <a>RUB</a>
+                                    </li>
+
+                                    <li>
+                                        <img src="./images/INR.svg" alt="currency">
+                                        <a>INR</a>
+                                    </li>
+
+                                    <li>
+                                        <img src="./images/KZT.svg" alt="currency">
+                                        <a>KZT</a>
+                                    </li>
+                                </ul>
+
+
+                            </div>
+
+                            <div class="tokens">
+                                <div>
+                                    <img src="./images/USDT.svg" alt="token">
+                                    <a>USDT</a>
+                                </div>
+
+                                <div>
+                                    <img src="./images/BTC.svg" alt="token">
+                                    <a>BTC</a>
+                                </div>
+
+                                <div>
+                                    <img src="./images/ETH.svg" alt="token">
+                                    <a>ETH</a>
+                                </div>
+
+                                <div>
+                                    <img src="./images/EOS.svg" alt="token">
+                                    <a>EOS</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="flash">
+                        <i class="fa-solid fa-bolt"></i>
+                        <p>Flash</p>
+                    </div>
+
+                    <div class="view">
+                        <p>View:</p>
+                        <a class="crypto-tiles-btn"><img src="./images/icon-map.svg" alt="view"></a>
+                        
+                        <a class="crypto-table-btn"><img src="./images/icon-table.svg" alt="view"></a>
+                        
+                    </div>
+                
+            </section>
+        </nav>
+    </header>
+
+
+
+
+    <main>
+        <section class="crypto-tiles">
+           <a class="canvas-link">
+               <img src="./images/canvas.PNG" alt="canvas">
+
+           </a> 
+
+
+
+            <div class="start-container">
+                <div class="start-title"><p class="title-para">SHA256</p></div>
+                <div class="tile-name">
+                    
+                        <h1>BTC</h1>
+                        <h4>$24,526.86</h4>
+                        <p>+3.35%</p>
+                    
+                    
+                </div>
+                <div class="zoom">
+                    <a><i class="fa-solid fa-plus"></i></a>
+                    <a><i class="fa-solid fa-minus"></i></a>
+                    <a><i class="fa-solid fa-expand"></i></a>
+                </div>
+                <div class="star">
+                    <a><img class="star-img" src="./images/star.svg" alt="star"></a>
+                </div>
+                <div class="dominance">
+                    <p>Dominance: 41.64%</p>
+                </div>
+            </div>
+            
+            <div class="middle-upper-container">
+                <div class="middle-upper-title"><p class="title-para">POS</p></div>
+
+                <div class="tile-name">                   
+                        <h1>ETH</h1>
+                        <h4>$1669.46</h4>
+                        <p>+1.65%</p>                                    
+                </div>
+                
+                <div class="star">
+                    <a><img class="star-img" src="./images/star.svg" alt="star"></a>
+                </div>
+            </div>
+
+            <div class="middle-lower-container-1">
+                <div class="middle-lower-title-1"><p class="title-para">DBFT</p></div>
+
+                <div class="tile-name">                   
+                        <h1>BNB</h1>
+                        <h4>$312.116</h4>
+                        <p>+1.11%</p>                                    
+                </div>
+                
+                <div class="star">
+                    <a><img class="star-img" src="./images/star.svg" alt="star"></a>
+                </div>
+                
+            </div>
+
+            <div class="middle-lower-container-2">
+                
+                <div class="tile-name">                   
+                        <h1>ATOM</h1>
+                        <h4>$2.116</h4>
+                        <p>+1.11%</p>                                    
+                </div>
+                
+                
+            </div>
+
+            <div class="middle-lower-container-3">
+                
+                <div class="tile-name">                   
+                        <h1>NEO</h1>
+                        <h4>$2.116</h4>
+                        <p>+1.11%</p>                                    
+                </div>
+                
+            </div>
+
+            <div class="second-column">
+
+
+                <div class="middle-lower-container-4">
+                    <div class="middle-lower-title-2"><p class="title-para">Other</p></div>
+                    
+                    <div class="tile-name">                   
+                            <h1>SOL</h1>
+                            <h4>$25.116</h4>
+                            <p>+3.11%</p>                                    
+                    </div>
+                    
+                </div>
+
+                <div class="middle-lower-container-5">
+                    
+                    <div class="tile-name">                   
+                            <h1>DOT</h1>
+                            <h4>$7.116</h4>
+                            <p>+8.11%</p>                                    
+                    </div>
+                    
+                </div>
+
+                <div class="middle-lower-container-6">
+                    <div class="tile-name">                   
+                            <h1>AVAX</h1>
+                            <h4>$20.116</h4>
+                            <p>+11.11%</p>                                    
+                    </div>
+                    
+                </div>
+
+                <div class="middle-lower-container-7">
+                    <div class="tile-name">                   
+                            <h1>FIL</h1>
+                            <h4>$2.116</h4>
+                            <p>+1.11%</p>                                    
+                    </div>
+                    
+                </div>
+
+                <div class="middle-lower-container-8">
+                    <div class="tile-name">                   
+                            <h1>HBAR</h1>
+                            <h4>$2.116</h4>
+                            <p>+1.11%</p>                                    
+                    </div>
+                    
+                </div>
+
+                <div class="middle-lower-container-9">
+                    <div class="tile-name">                   
+                            <h1>NEAR</h1>
+                            <h4>$2.116</h4>
+                            <p>+1.11%</p>                                    
+                    </div>
+                    
+                </div>
+
+                <div class="middle-lower-container-10">
+                    <div class="tile-name">                   
+                            <h1>VET</h1>
+                            <h4>$2.116</h4>
+                            <p>+1.11%</p>                                    
+                    </div>
+                    
+                </div>
+
+                <div class="middle-lower-container-11">
+                    <div class="tile-name">                   
+                            <h1>ICP</h1>
+                            <h4>$2.116</h4>
+                            <p>+1.11%</p>                                    
+                    </div>
+                    
+                </div>
+
+                <div class="middle-lower-container-12">
+                    <div class="tile-name">                   
+                            <h1>BTT</h1>
+                            <h4>$2.116</h4>
+                            <p>+1.11%</p>                                    
+                    </div>
+                    
+                </div>
+
+                <div class="middle-lower-container-13">
+                    <div class="tile-name">                   
+                            <h1>AXS</h1>
+                            <h4>$2.116</h4>
+                            <p>+1.11%</p>                                    
+                    </div>
+                    
+                </div>
+
+            </div>
+
+
+            <div class="middle-lower-container-14">
+                <div class="middle-lower-title-3"><p class="title-para">RPCA</p></div>
+
+                <div class="tile-name">                   
+                        <h1>XRP</h1>
+                        <h4>$0.38816</h4>
+                        <p>+0.11%</p>                                    
+                </div>
+                
+            </div>
+
+            <div class="middle-lower-container-15">
+                <div class="middle-lower-title-4"><p class="title-para">Scrypt</p></div>
+
+                <div class="tile-name">                   
+                        <h1>DODGE</h1>
+                        <h4>$0.08116</h4>
+                        <p>+1.11%</p>                                    
+                </div>
+                
+            </div>
+
+            <div class="middle-lower-container-16">
+                <div class="tile-name">                   
+                        <h1>LTC</h1>
+                        <h4>$92.116</h4>
+                        <p>+1.11%</p>                                    
+                </div>
+                
+            </div>
+
+            <div class="middle-lower-container-17">
+                <div class="middle-lower-title-5"><p class="title-para">Ouroboros</p></div>
+
+                <div class="tile-name">                   
+                        <h1>ADA</h1>
+                        <h4>$0.38116</h4>
+                        <p>+1.11%</p>                                    
+                </div>
+                
+            </div>
+
+            <div class="middle-lower-container-18">
+                <div class="tile-name">                   
+                        <h1>XMR</h1>
+                        <h4>$2.116</h4>
+                        <p>+1.11%</p>                                    
+                </div>
+                
+            </div>
+
+            <div class="middle-lower-container-19">
+                <div class="tile-name">                   
+                        <h1>ETC</h1>
+                        <h4>$2.116</h4>
+                        <p>+1.11%</p>                                    
+                </div>
+                
+            </div>
+
+            <div class="middle-lower-container-20">
+                <div class="tile-name">                   
+                        <h1>TRX</h1>
+                        <h4>$2.116</h4>
+                        <p>+1.11%</p>                                    
+                </div>
+                
+            </div>
+
+            <div class="middle-lower-container-21">
+                <div class="tile-name">                   
+                        <h1>EOS</h1>
+                        <h4>$2.116</h4>
+                        <p>+1.11%</p>                                    
+                </div>
+                
+            </div>
+
+            <div class="first-row">
+
+
+                <div class="end-upper-container-1">
+                    
+                    <div class="end-upper-title"><p class="title-para">Ethereum Tokens</p></div>
+                    
+                    <div class="tile-name">                   
+                            <h1>USDC</h1>
+                            <h4>$0.99044</h4>
+                            <p>+0.16%</p>          
+
+                    </div>  
+                    <div class="star">
+                        <a><img class="star-img" src="./images/star.svg" alt="star"></a>
+                    </div> 
+                </div>
+
+                <div class="end-upper-container-2">
+                    
+                    <div class="tile-name">                   
+                            <h1>UNI</h1>
+                            <h4>$2.116</h4>
+                            <p>+1.11%</p>                                    
+                    </div>   
+                </div>
+
+                <div class="end-upper-container-3">
+                
+                    <div class="tile-name">                   
+                            <h1>DAI</h1>
+                            <h4>$2.116</h4>
+                            <p>+1.11%</p>                                    
+                    </div>   
+                </div>
+
+                <div class="end-upper-container-4">
+
+                    <div class="tile-name">                   
+                            <h1>LEO</h1>
+                            <h4>$2.116</h4>
+                            <p>+1.11%</p>                                    
+                    </div>   
+                </div>
+
+                <div class="end-upper-container-5">
+                    <div class="tile-name">                   
+                            <h1>OKB</h1>
+                            <h4>$2.116</h4>
+                            <p>+1.11%</p>                                    
+                    </div>   
+                </div>
+
+                <div class="end-upper-container-6">
+                    <div class="tile-name">                   
+                            <h1>CRO</h1>
+                            <h4>$2.116</h4>
+                            <p>+1.11%</p>                                    
+                    </div>   
+                </div>
+
+                <div class="end-upper-container-7">
+                    <div class="tile-name">                   
+                            <h1>WBTC</h1>
+                            <h4>$2.116</h4>
+                            <p>+1.11%</p>                                    
+                    </div>   
+                </div>
+
+                <div class="end-upper-container-8">
+                    <div class="tile-name">                   
+                            <h1>LINK</h1>
+                            <h4>$2.116</h4>
+                            <p>+1.11%</p>                                    
+                    </div>   
+                </div>
+
+                <div class="end-upper-container-9">
+                    <div class="tile-name">                   
+                            <h1>APE</h1>
+                            <h4>$2.116</h4>
+                            <p>+1.11%</p>                                    
+                    </div>   
+                </div>
+
+                <div class="end-upper-container-10">
+                    <div class="tile-name">                   
+                            <h1>QNT</h1>
+                            <h4>$2.116</h4>
+                            <p>+1.11%</p>                                    
+                    </div>   
+                </div>
+
+                <div class="end-upper-container-11">
+                    <div class="tile-name">                   
+                            <h1>MATIC</h1>
+                            <h4>$1.376</h4>
+                            <p>+0.11%</p>                                    
+                    </div>   
+                </div>
+
+                <div class="end-upper-container-12">
+                    <div class="tile-name">                   
+                            <h1>SHIB</h1>
+                            <h4>$0.000013</h4>
+                            <p>+1.11%</p>                                    
+                    </div>   
+                </div>
+
+                <div class="end-upper-container-13">
+                    <div class="tile-name">                   
+                            <h1>STETH</h1>
+                            <h4>$1566.06</h4>
+                            <p>+1.11%</p>                                    
+                    </div>   
+                </div>
+
+            </div>
+            
+
+            <div class="end-lower-container-1">
+                <div class="end-lower-title-1"><p class="title-para">Omni Tokens</p></div>
+
+                <div class="tile-name">                   
+                        <h1>USDT</h1>
+                        <h4>$1.0005</h4>
+                        <p>+0.01%</p>                                    
+                </div>
+                <div class="star">
+                
+                    <a><img class="star-img" src="./images/star.svg" alt="star"></a>
+                </div>   
+            </div>
+
+            
+
+            
+
+                <div class="end-lower-container-2">
+                    <div class="end-lower-title-2"><p class="title-para">Other tokens</p></div>
+
+                    <div class="tile-name">                   
+                            <h1>TON</h1>
+                            <h4>$566.06</h4>
+                            <p>+1.11%</p>                                    
+                    </div>   
+                </div>
+
+                <div class="end-lower-container-3">
+                    <div class="tile-name">                   
+                            <h1>LDO</h1>
+                            <h4>$1566.06</h4>
+                            <p>+1.11%</p>                                    
+                    </div>   
+                </div>
+
+                <div class="end-lower-container-4">
+                    <div class="tile-name">                   
+                            <h1>APT</h1>
+                            <h4>$1566.06</h4>
+                            <p>+1.11%</p>                                    
+                    </div>   
+                </div>
+
+                
+
+            <div class="end-lower-container-5">
+                <div class="end-lower-title-3"><p class="title-para">Binance Tokens</p></div>
+
+                <div class="tile-name">                   
+                        <h1>BUSD</h1>
+                        <h4>$0.9706</h4>
+                        <p>+0.11%</p>                                    
+                </div>   
+            </div>
+
+            
+        </section>
+       
+       <section class="crypto-table">
+
+            <div class="table-title">
+                <h1>Top 100 Cryptocurrency by Market Capitalization</h1>
+                <p>Total Market Cap: $975,482,348,282</p>
+            </div>
+
+            <div class="table-upper-buttons">
+                <button><a>Next 100</a> <i class="fa-solid fa-arrow-right"></i></button>
+                <button><a>View all</a></button>
+            </div>
+
+            <div class="table-content">
+                <div class="table-top-row">
+                    <p>#</p>
+                    <p>Symbol <i class="fa-solid fa-arrow-up"></i></p>
+                    <p>Name <i class="fa-solid fa-arrow-up"></i></p>
+                    <p class="white"><i class="fa-solid fa-arrow-up"></i> Market Cap(USD)</p>
+                    <p> <i class="fa-solid fa-arrow-up"></i> Price(USD)</p>
+                    <p> <i class="fa-solid fa-arrow-up"></i> Volume24h</i></p>
+                    <p> <i class="fa-solid fa-arrow-up"></i> Circulating Supply</p>
+                    <p> <i class="fa-solid fa-arrow-up"></i> Cahnge 24h</p>
+                    <p>Price Graph 7d</p>
+                </div>
+                
+                
+                <div class="table-row">
+                    <p>1</p>
+                    <p><img src="./images/BTC.svg" alt="token"> BTC</p>
+                    <p>Bitcoin</p>
+                    <p>394,893,799,939</p>
+                    <p>20,445</p>
+                    <p>10,708,075,871</p>
+                    <p>19,315,112</p>
+                    <p>0.54%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div>
+            
+                
+                
+                <div class="table-row">
+                    <p>2</p>
+                    <p><img src="./images/eth.png" alt="token"> ETH</p>
+                    <p>Ethereum</p>
+                    <p>203,760,488,711</p>
+                    <p>1,665</p>
+                    <p>10,064,340,555</p>
+                    <p>122,373,866</p>
+                    <p>12.73%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div>
+                
+                <div class="table-row">
+                    <p>3</p>
+                    <p><img src="./images/usdt.png" alt="token"> USDT</p>
+                    <p>Tether</p>
+                    <p>72,761,469,068</p>
+                    <p>1.0029</p>
+                    <p>21,052,082,370</p>
+                    <p>72,553,804,547</p>
+                    <p>0.34%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+                <div class="table-row">
+                    <p>4</p>
+                    <p><img src="./images/bnb.png" alt="token"> BNB</p>
+                    <p>Binance Coin</p>
+                    <p>48,641,871,779</p>
+                    <p>308.064</p>
+                    <p>730,211,179</p>
+                    <p>157,892,589</p>
+                    <p>9.68%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+                <div class="table-row">
+                    <p>5</p>
+                    <p><img src="./images/usdc.png" alt="token"> USDC</p>
+                    <p>USD Coin</p>
+                    <p>40,759,358,680</p>
+                    <p>0.991076</p>
+                    <p>2,147,450,068</p>
+                    <p>41,126,374,007</p>
+                    <p>4.47%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+                <div class="table-row">
+                    <p>6</p>
+                    <p><img src="./images/xrp.png" alt="token"> XRP</p>
+                    <p>Ripple</p>
+                    <p>19,032,532,086</p>
+                    <p>0.373546</p>
+                    <p>779,692,287</p>
+                    <p>50,950,912,949</p>
+                    <p>4.06%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+                <div class="table-row">
+                    <p>7</p>
+                    <p><img src="./images/ada.png" alt="token"> ADA</p>
+                    <p>Cardano</p>
+                    <p>12,066,803,293</p>
+                    <p>0.347794</p>
+                    <p>375,079,523</p>
+                    <p>34,695,162,322</p>
+                    <p>12.66%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+                <div class="table-row">
+                    <p>8</p>
+                    <p><img src="./images/matic.png" alt="token"> MATIC</p>
+                    <p>Polygon</p>
+                    <p>10,308,063,377</p>
+                    <p>1.1802</p>
+                    <p>673,743,072</p>
+                    <p>8,734,317,475</p>
+                    <p>7.99%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+                <div class="table-row">
+                    <p>9</p>
+                    <p><img src="./images/doge.png" alt="token"> DOGE</p>
+                    <p>Dogecoin</p>
+                    <p>9,614,971,123</p>
+                    <p>0.072472</p>
+                    <p>327,179,493</p>
+                    <p>132,670,764,300</p>
+                    <p>9.09%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+                <div class="table-row">
+                    <p>10</p>
+                    <p><img src="./images/busd.png" alt="token"> BUSD</p>
+                    <p>Binance USD</p>
+                    <p>8,075,652,120</p>
+                    <p>0.964155</p>
+                    <p>4,458,233,453</p>
+                    <p>8,375,923,988</p>
+                    <p class="red-percent">-10.33%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div>
+            
+             
+                
+                <div class="table-row">
+                    <p>11</p>
+                    <p><img src="./images/sol.png" alt="token"> SOL</p>
+                    <p>Solana</p>
+                    <p>7,987,888,336</p>
+                    <p>20.8509</p>
+                    <p>878,629,309</p>
+                    <p>383,098,148</p>
+                    <p>14.82%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div>
+            
+                
+                
+                <div class="table-row">
+                    <p>12</p>
+                    <p><img src="./images/dot.png" alt="token"> DOT</p>
+                    <p>Polkadot</p>
+                    <p>7,058,680,399</p>
+                    <p>6.0564</p>
+                    <p>233,956,323</p>
+                    <p>1,165,500,579</p>
+                    <p>9.90%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+                <div class="table-row">
+                    <p>13</p>
+                    <p><img src="./images/dai.png" alt="token"> DAI</p>
+                    <p>Dai</p>
+                    <p>6,319,088,364</p>
+                    <p>0.978138</p>
+                    <p>89,402,518</p>
+                    <p>6,458,903,775</p>
+                    <p class="red-percent">-0.63%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+                <div class="table-row">
+                    <p>14</p>
+                    <p><img src="./images/tron.png" alt="token"> TRX</p>
+                    <p>TRON</p>
+                    <p>6,142,141,427</p>
+                    <p>0.067292</p>
+                    <p>271,958,280</p>
+                    <p>91,276,041,734</p>
+                    <p>12.70%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+                <div class="table-row">
+                    <p>15</p>
+                    <p><img src="./images/shiba.png" alt="token"> SHIB</p>
+                    <p>SHIBA INU</p>
+                    <p>6,082,182,446</p>
+                    <p>0.000011</p>
+                    <p>306,529,513</p>
+                    <p>549,063,278,876,3...</p>
+                    <p>8.91%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+                <div class="table-row">
+                    <p>16</p>
+                    <p><img src="./images/Ltc.png" alt="token"> LTC</p>
+                    <p>Litecoin</p>
+                    <p>5,903,372,550</p>
+                    <p>81.1753</p>
+                    <p>550,762,962</p>
+                    <p>72,470,865</p>
+                    <p>16.67%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+                <div class="table-row">
+                    <p>17</p>
+                    <p><img src="./images/steth.png" alt="token"> STETH</p>
+                    <p>Lido stETH</p>
+                    <p>5,595,721,488</p>
+                    <p>1,604</p>
+                    <p>966,229</p>
+                    <p>3,487,728</p>
+                    <p>7.84%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+                <div class="table-row">
+                    <p>18</p>
+                    <p><img src="./images/avax.png" alt="token"> AVAX</p>
+                    <p>Avalanche</p>
+                    <p>5,354,945,924</p>
+                    <p>16.4496</p>
+                    <p>242,631,210</p>
+                    <p>325,536,057</p>
+                    <p>13.03%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>19</p>
+                    <p><img src="./images/uni.png" alt="token"> UNI</p>
+                    <p>Uniswap</p>
+                    <p>4,623,617,484</p>
+                    <p>6.0661</p>
+                    <p>116,632,060</p>
+                    <p>762,209,327</p>
+                    <p>9.15%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>20</p>
+                    <p><img src="./images/tmg.png" alt="token"> TMG</p>
+                    <p>T-mac DAO</p>
+                    <p>3,890,697,821</p>
+                    <p>3.8907</p>
+                    <p>0.38907</p>
+                    <p>1,000,000,000</p>
+                    <p>0.00%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div>
+            
+
+                <div class="table-row">
+                    <p>21</p>
+                    <p><img src="./images/wbtc.png" alt="token"> WBTC</p>
+                    <p>Wrapped Bitcoin</p>
+                    <p>3,563,894,886</p>
+                    <p>23,253</p>
+                    <p>60,358,149</p>
+                    <p>153,264</p>
+                    <p>2.70%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div>
+                
+                <div class="table-row">
+                    <p>22</p>
+                    <p><img src="./images/link.png" alt="token"> LINK</p>
+                    <p>Chainlink</p>
+                    <p>3,470,208,891</p>
+                    <p>6.7109</p>
+                    <p>225,943,594</p>
+                    <p>517,099,970</p>
+                    <p>8.26%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>23</p>
+                    <p><img src="./images/atom.png" alt="token"> ATOM</p>
+                    <p>Cosmos</p>
+                    <p>3,415,451,693</p>
+                    <p>11.9267</p>
+                    <p>128,957,786</p>
+                    <p>286,370,297</p>
+                    <p>5.95%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+
+					
+                <div class="table-row">
+                    <p>24</p>
+                    <p><img src="./images/leo.png" alt="token"> LEO</p>
+                    <p>Unus Sed Leo</p>
+                    <p>3,191,305,681</p>
+                    <p>3.3453</p>
+                    <p>1,391,299</p>
+                    <p>953,954,130</p>
+                    <p>9.14%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>25</p>
+                    <p><img src="./images/ton.png" alt="token"> TON</p>
+                    <p>Toncoin</p>
+                    <p>2,894,778,962</p>
+                    <p>2.37</p>
+                    <p>17,119,917</p>
+                    <p>1,221,401,181</p>
+                    <p>4.77%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>26</p>
+                    <p><img src="./images/okb.png" alt="token"> OKB</p>
+                    <p>OKB</p>
+                    <p>2,854,211,339</p>
+                    <p>47.5702</p>
+                    <p>46,987,811</p>
+                    <p>60,000,000</p>
+                    <p>16.75%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>27</p>
+                    <p><img src="./images/xmr.png" alt="token"> XMR</p>
+                    <p>Monero</p>
+                    <p>2,750,130,967</p>
+                    <p>150.678</p>
+                    <p>80,357,299</p>
+                    <p>18,251,750</p>
+                    <p>0.94%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>28</p>
+                    <p><img src="./images/etc.png" alt="token"> ETC</p>
+                    <p>Ethereum Classic</p>
+                    <p>2,725,929,972</p>
+                    <p>19.4873</p>
+                    <p>161,227,163</p>
+                    <p>139,882,364</p>
+                    <p>13.88%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>29</p>
+                    <p><img src="./images/fil.png" alt="token"> FIL</p>
+                    <p>Filecoin</p>
+                    <p>2,515,745,538</p>
+                    <p>6.2403</p>
+                    <p>582,745,356</p>
+                    <p>403,144,600</p>
+                    <p>26.39%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+              
+
+					  
+                <div class="table-row">
+                    <p>30</p>
+                    <p><img src="./images/bch.png" alt="token"> BCH</p>
+                    <p>Bitcoin Cash</p>
+                    <p>2,433,539,460</p>
+                    <p>125.857</p>
+                    <p>103,719,217</p>
+                    <p>19,335,700</p>
+                    <p>10.01%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div>
+            
+                
+					 
+                
+                <div class="table-row">
+                    <p>31</p>
+                    <p><img src="./images/ldo.png" alt="token"> LDO</p>
+                    <p>Lido DAO Token</p>
+                    <p>2,295,477,063</p>
+                    <p>2.6892</p>
+                    <p>219,903,982</p>
+                    <p>853,601,038</p>
+                    <p>28.88%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div>
+            
+                
+					
+                
+                <div class="table-row">
+                    <p>32</p>
+                    <p><img src="./images/xlm.png" alt="token"> XLM</p>
+                    <p>Stellar Lumens</p>
+                    <p>2,219,586,167</p>
+                    <p>0.083941</p>
+                    <p>62,691,003</p>
+                    <p>26,442,361,496</p>
+                    <p>4.65%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>33</p>
+                    <p><img src="./images/apt.png" alt="token"> APT</p>
+                    <p>Aptos</p>
+                    <p>2,136,039,130</p>
+                    <p>12.4319</p>
+                    <p>488,398,810</p>
+                    <p>171,819,136</p>
+                    <p>20.92%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>34</p>
+                    <p><img src="./images/tusd.png" alt="token"> TUSD</p>
+                    <p>TrueUSD</p>
+                    <p>2,063,099,954</p>
+                    <p>0.992567</p>
+                    <p>31,991,618</p>
+                    <p>2,078,550,526</p>
+                    <p>1.09%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+
+					
+                <div class="table-row">
+                    <p>35</p>
+                    <p><img src="./images/hbar.png" alt="token"> HBAR</p>
+                    <p>Hedera Hashgraph</p>
+                    <p>1,785,611,831</p>
+                    <p>0.063592</p>
+                    <p>39,570,493</p>
+                    <p>28,078,985,417</p>
+                    <p>10.89%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>36</p>
+                    <p><img src="./images/cro.png" alt="token"> CRO</p>
+                    <p>Cronos</p>
+                    <p>1,783,315,812</p>
+                    <p>0.07059</p>
+                    <p>5,749,983</p>
+                    <p>25,263,013,692</p>
+                    <p>8.31%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+
+					
+                <div class="table-row">
+                    <p>37</p>
+                    <p><img src="./images/near.png" alt="token"> NEAR</p>
+                    <p>NEAR Protocol</p>
+                    <p>1,731,355,503</p>
+                    <p>1.9992</p>
+                    <p>115,711,045</p>
+                    <p>866,021,029</p>
+                    <p>10.96%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>38</p>
+                    <p><img src="./images/vet.png" alt="token"> VET</p>
+                    <p>VeChain</p>
+                    <p>1,672,885,658</p>
+                    <p>0.023049	</p>
+                    <p>34,667,124</p>
+                    <p>72,511,146,418</p>
+                    <p>11.49%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+                					 
+                <div class="table-row">
+                    <p>39</p>
+                    <p><img src="./images/ape.png" alt="token"> APE</p>
+                    <p>ApeCoin</p>
+                    <p>1,632,601,165</p>
+                    <p>4.4293</p>
+                    <p>99,081,375</p>
+                    <p>368,593,750</p>
+                    <p>13.22%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>40</p>
+                    <p><img src="./images/icp.png" alt="token"> ICP</p>
+                    <p>Internet Computer</p>
+                    <p>1,572,523,130</p>
+                    <p>5.3136</p>
+                    <p>70,307,160</p>
+                    <p>295,945,403</p>
+                    <p>12.90%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div>
+            
+                
+                					
+                
+                <div class="table-row">
+                    <p>41</p>
+                    <p><img src="./images/qnt.png" alt="token"> QNT</p>
+                    <p>Quant</p>
+                    <p>1,536,821,080</p>
+                    <p>127.297</p>
+                    <p>30,893,080</p>
+                    <p>12,072,738</p>
+                    <p>4.37%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div>
+            
+                
+
+					
+                
+                <div class="table-row">
+                    <p>42</p>
+                    <p><img src="./images/algo.png" alt="token"> ALGO</p>
+                    <p>Algorand</p>
+                    <p>1,487,321,427</p>
+                    <p>0.209009</p>
+                    <p>84,138,371</p>
+                    <p>7,116,079,090</p>
+                    <p>9.38%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+
+					
+                <div class="table-row">
+                    <p>43</p>
+                    <p><img src="./images/grt.png" alt="token"> GRT</p>
+                    <p>The Graph</p>
+                    <p>1,269,759,982</p>
+                    <p>0.143691</p>
+                    <p>108,699,101</p>
+                    <p>8,836,768,030</p>
+                    <p>20.56%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+
+					
+                <div class="table-row">
+                    <p>44</p>
+                    <p><img src="./images/eos.png" alt="token"> EOS</p>
+                    <p>EOS</p>
+                    <p>1,157,750,490</p>
+                    <p>1.0707</p>
+                    <p>134,326,761</p>
+                    <p>1,081,263,745</p>
+                    <p>6.32%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+
+					
+                <div class="table-row">
+                    <p>45</p>
+                    <p><img src="./images/ftm.png" alt="token"> FTM</p>
+                    <p>Fantom</p>
+                    <p>1,144,252,565</p>
+                    <p>0.411873</p>
+                    <p>252,309,995</p>
+                    <p>2,778,169,716</p>
+                    <p>13.62%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+
+					
+                <div class="table-row">
+                    <p>46</p>
+                    <p><img src="./images/bit.png" alt="token"> BIT</p>
+                    <p>BitDAO</p>
+                    <p>1,101,093,556</p>
+                    <p>0.526601</p>
+                    <p>10,846,139</p>
+                    <p>2,090,946,169</p>
+                    <p>8.38%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+
+					
+                <div class="table-row">
+                    <p>47</p>
+                    <p><img src="./images/mana.png" alt="token"> MANA</p>
+                    <p>Decentraland</p>
+                    <p>1,092,890,360</p>
+                    <p>0.589132</p>
+                    <p>56,799,718</p>
+                    <p>1,855,084,192</p>
+                    <p>8.46%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+
+					
+                <div class="table-row">
+                    <p>48</p>
+                    <p><img src="./images/stx.png" alt="token"> STX</p>
+                    <p>Stacks</p>
+                    <p>1,078,573,677</p>
+                    <p>0.789384</p>
+                    <p>145,569,265</p>
+                    <p>1,366,347,854</p>
+                    <p>28.42%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>49</p>
+                    <p><img src="./images/aave.png" alt="token"> AAVE</p>
+                    <p>Aave</p>
+                    <p>1,070,937,032</p>
+                    <p>75.9897</p>
+                    <p>52,569,140</p>
+                    <p>14,093,193</p>
+                    <p>9.18%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+
+					
+                <div class="table-row">
+                    <p>50</p>
+                    <p><img src="./images/egld.png" alt="token"> EGLD</p>
+                    <p>Elrond</p>
+                    <p>1,065,233,239</p>
+                    <p>42.3943</p>
+                    <p>26,172,981</p>
+                    <p>25,126,820</p>
+                    <p>7.30%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div>
+            
+                
+					 
+                
+                <div class="table-row">
+                    <p>51</p>
+                    <p><img src="./images/frax.png" alt="token"> FRAX</p>
+                    <p>Frax</p>
+                    <p>1,041,026,289</p>
+                    <p>0.996337</p>
+                    <p>79,752</p>
+                    <p>1,044,853,133</p>
+                    <p>8.87%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div>
+            
+                
+					
+                
+                <div class="table-row">
+                    <p>52</p>
+                    <p><img src="./images/btcb.png" alt="token"> BTCB</p>
+                    <p>Bitcoin BEP2</p>
+                    <p>1,037,431,220</p>
+                    <p>19,564</p>
+                    <p>1,514,573</p>
+                    <p>53,027</p>
+                    <p>0.20%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>53</p>
+                    <p><img src="./images/theta.png" alt="token"> THETA</p>
+                    <p>Theta Network</p>
+                    <p>1,008,851,583</p>
+                    <p>1.0089</p>
+                    <p>22,516,130</p>
+                    <p>1,000,000,000</p>
+                    <p>7.35%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>54</p>
+                    <p><img src="./images/xtz.png" alt="token"> XTZ</p>
+                    <p>Tezos</p>
+                    <p>1,008,514,196</p>
+                    <p>1.0839</p>
+                    <p>19,826,976</p>
+                    <p>930,478,000</p>
+                    <p>5.31%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>55</p>
+                    <p><img src="./images/axs.png" alt="token"> AXS</p>
+                    <p>Axie Infinity</p>
+                    <p>937,512,974</p>
+                    <p>8.2297</p>
+                    <p>33,162,192</p>
+                    <p>113,918,073</p>
+                    <p>8.99%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>56</p>
+                    <p><img src="./images/sand.png" alt="token"> SAND</p>
+                    <p>The Sandbox</p>
+                    <p>915,622,619</p>
+                    <p>0.610631</p>
+                    <p>103,100,137</p>
+                    <p>1,499,470,108</p>
+                    <p>11.67%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>57</p>
+                    <p><img src="./images/mkr.png" alt="token"> MKR</p>
+                    <p>Maker</p>
+                    <p>898,779,943</p>
+                    <p>919.345</p>
+                    <p>183,156,388</p>
+                    <p>977,631</p>
+                    <p>29.17%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>58</p>
+                    <p><img src="./images/hbtc.svg" alt="token"> HBTC</p>
+                    <p>Huobi BTC</p>
+                    <p>894,549,135</p>
+                    <p>22,955</p>
+                    <p>0.068865</p>
+                    <p>38,969</p>
+                    <p>0.00%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>59</p>
+                    <p><img src="./images/usdp.png" alt="token"> USDP</p>
+                    <p>Pax Dollar</p>
+                    <p>875,556,819</p>
+                    <p>0.997122</p>
+                    <p>26,300,732</p>
+                    <p>878,084,065</p>
+                    <p>1.52%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>60</p>
+                    <p><img src="./images/kcs.png" alt="token"> KCS</p>
+                    <p>KuCoin Token</p>
+                    <p>865,475,055</p>
+                    <p>8.7973</p>
+                    <p>2,237,164</p>
+                    <p>98,379,861</p>
+                    <p>1.99%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div>
+            					
+                
+                <div class="table-row">
+                    <p>61</p>
+                    <p><img src="./images/usdp.png" alt="token"> USDP</p>
+                    <p>Pax Dollar</p>
+                    <p>874,975,733</p>
+                    <p>0.99646</p>
+                    <p>13,383,478</p>
+                    <p>878,084,065</p>
+                    <p>0.60%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div>
+            
+                
+                					  
+                
+                <div class="table-row">
+                    <p>62</p>
+                    <p><img src="./images/mkr.png" alt="token"> MKR</p>
+                    <p>Maker</p>
+                    <p>871,094,251</p>
+                    <p>891.026</p>
+                    <p>76,756,121</p>
+                    <p>977,631</p>
+                    <p class="red-percent">-4.69%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>63</p>
+                    <p><img src="./images/rpl.png" alt="token"> RPL</p>
+                    <p>Rocket Pool</p>
+                    <p>858,637,917</p>
+                    <p>44.9233</p>
+                    <p>8,487,177</p>
+                    <p>19,113,413</p>
+                    <p>15.70%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>64</p>
+                    <p><img src="./images/cfx.png" alt="token"> CFX</p>
+                    <p>Conflux</p>
+                    <p>843,026,778</p>
+                    <p>0.317616</p>
+                    <p>935,945,296</p>
+                    <p>2,654,234,487</p>
+                    <p>33.47%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+
+					
+                <div class="table-row">
+                    <p>65</p>
+                    <p><img src="./images/chz.png" alt="token"> CHZ</p>
+                    <p>Chiliz</p>
+                    <p>837,921,379</p>
+                    <p>0.124715</p>
+                    <p>39,698,351</p>
+                    <p>6,718,673,350</p>
+                    <p>5.45%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+
+					
+                <div class="table-row">
+                    <p>66</p>
+                    <p><img src="./images/neo.png" alt="token"> NEO</p>
+                    <p>NEO</p>
+                    <p>825,276,080</p>
+                    <p>11.6996</p>
+                    <p>28,007,962</p>
+                    <p>70,538,831</p>
+                    <p>7.50%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>67</p>
+                    <p><img src="./images/lunc.png" alt="token"> LUNC</p>
+                    <p>Terra Classic</p>
+                    <p>820,585,217</p>
+                    <p>0.000139</p>
+                    <p>70,817,871</p>
+                    <p>5,893,401,006,367</p>
+                    <p>4.95%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+
+					
+                <div class="table-row">
+                    <p>68</p>
+                    <p><img src="./images/snx.png" alt="token"> SNX</p>
+                    <p>Synthetix</p>
+                    <p>800,474,073</p>
+                    <p>3.1594</p>
+                    <p>104,217,821</p>
+                    <p>253,362,541</p>
+                    <p class="red-percent">-0.86%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>69</p>
+                    <p><img src="./images/klay.png" alt="token"> KLAY</p>
+                    <p>Klaytn</p>
+                    <p>786,305,748</p>
+                    <p>0.255377</p>
+                    <p>27,081,717</p>
+                    <p>3,079,000,794</p>
+                    <p>3.82%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>70</p>
+                    <p><img src="./images/crv.png" alt="token"> CRV</p>
+                    <p>Curve DAO Token</p>
+                    <p>768,268,731</p>
+                    <p>1.0279</p>
+                    <p>59,342,084</p>
+                    <p>747,394,720</p>
+                    <p>3.44%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div>
+            
+                
+                <div class="table-row">
+                    <p>71</p>
+                    <p><img src="./images/mina.png" alt="token"> MINA</p>
+                    <p>Mina</p>
+                    <p>720,513,755</p>
+                    <p>0.831122</p>
+                    <p>71,012,982</p>
+                    <p>866,916,892</p>
+                    <p>12.94%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div>
+            
+					  
+                
+                <div class="table-row">
+                    <p>72</p>
+                    <p><img src="./images/bsv.png" alt="token"> BSV</p>
+                    <p>Bitcoin SV</p>
+                    <p>714,304,823</p>
+                    <p>37.0758</p>
+                    <p>8,346,506</p>
+                    <p>19,266,077</p>
+                    <p>4.24%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>73</p>
+                    <p><img src="./images/cake.png" alt="token"> CAKE</p>
+                    <p>PancakeSwap</p>
+                    <p>705,811,037</p>
+                    <p>3.9012</p>
+                    <p>17,103,768</p>
+                    <p>180,921,269</p>
+                    <p>1.91%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>74</p>
+                    <p><img src="./images/fxs.png" alt="token"> FXS</p>
+                    <p>Frax Share</p>
+                    <p>702,655,218</p>
+                    <p>9.433</p>
+                    <p>28,591,844</p>
+                    <p>74,488,992</p>
+                    <p>5.76%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>75</p>
+                    <p><img src="./images/ht.png" alt="token"> HT</p>
+                    <p>Huobi Token</p>
+                    <p>700,423,930</p>
+                    <p>4.3174</p>
+                    <p>17,536,359</p>
+                    <p>162,233,844</p>
+                    <p>6.13%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>76</p>
+                    <p><img src="./images/usdd.png" alt="token"> USDD</p>
+                    <p>Decentralized USD</p>
+                    <p>674,423,519</p>
+                    <p>0.929814</p>
+                    <p>13,035,227</p>
+                    <p>725,332,036</p>
+                    <p>4.04%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+						
+
+                <div class="table-row">
+                    <p>77</p>
+                    <p><img src="./images/xec.png" alt="token"> XEC</p>
+                    <p>eCash</p>
+                    <p>673,433,483</p>
+                    <p>0.000035</p>
+                    <p>4,177,254</p>
+                    <p>19,332,942,173,303</p>
+                    <p>10.51%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>78</p>
+                    <p><img src="./images/gmx.png" alt="token"> GMX</p>
+                    <p>GMX</p>
+                    <p>668,401,810</p>
+                    <p>78.2306</p>
+                    <p>38,279,219</p>
+                    <p>8,544,000</p>
+                    <p>12.30%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>79</p>
+                    <p><img src="./images/dash.png" alt="token"> DASH</p>
+                    <p>Dash</p>
+                    <p>664,212,927</p>
+                    <p>59.7275</p>
+                    <p>36,504,692</p>
+                    <p>11,120,725</p>
+                    <p>6.43%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>80</p>
+                    <p><img src="./images/btt.png" alt="token"> BTT</p>
+                    <p>BitTorrent New</p>
+                    <p>662,649,880</p>
+                    <p>0.0000007</p>
+                    <p>8,515,588</p>
+                    <p>951,421,714,286,000</p>
+                    <p>5.53%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div>
+            
+                 
+                
+					
+                <div class="table-row">
+                    <p>81</p>
+                    <p><img src="./images/iota.png" alt="token"> IOTA</p>
+                    <p>MIOTA</p>
+                    <p>612,560,641</p>
+                    <p>0.220383</p>
+                    <p>6,479,297</p>
+                    <p>2,779,530,283</p>
+                    <p>4.74%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div>
+            
+                
+                
+					
+                <div class="table-row">
+                    <p>82</p>
+                    <p><img src="./images/zec.png" alt="token"> ZEC</p>
+                    <p>Zcash</p>
+                    <p>601,932,386</p>
+                    <p>36.8644</p>
+                    <p>41,643,650</p>
+                    <p>16,328,269</p>
+                    <p>5.55%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+
+					
+                <div class="table-row">
+                    <p>83</p>
+                    <p><img src="./images/gusd.png" alt="token"> GUSD</p>
+                    <p>Gemini Dollar</p>
+                    <p>592,465,076</p>
+                    <p>0.975974</p>
+                    <p>718,652</p>
+                    <p>607,049,883</p>
+                    <p>0.66%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+ 					
+                <div class="table-row">
+                    <p>84</p>
+                    <p><img src="./images/gt.png" alt="token"> GT</p>
+                    <p>Gatechain Token</p>
+                    <p>588,181,093</p>
+                    <p>5.4328</p>
+                    <p>1,986,387</p>
+                    <p>108,265,077</p>
+                    <p>4.26%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>85</p>
+                    <p><img src="./images/twt.png" alt="token"> TWT</p>
+                    <p>Trust Wallet Token</p>
+                    <p>536,281,227</p>
+                    <p>1.2871</p>
+                    <p>19,460,942</p>
+                    <p>416,649,900</p>
+                    <p>0.81%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>86</p>
+                    <p><img src="./images/kava.png" alt="token"> KAVA</p>
+                    <p>Kava</p>
+                    <p>526,101,498</p>
+                    <p>1.192</p>
+                    <p>47,040,757</p>
+                    <p>441,357,332</p>
+                    <p>9.57%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>87</p>
+                    <p><img src="./images/agix.png" alt="token"> AGIX</p>
+                    <p>SingularityNET</p>
+                    <p>520,299,858</p>
+                    <p>0.431669</p>
+                    <p>203,062,712</p>
+                    <p>1,205,321,857</p>
+                    <p>10.23%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>88</p>
+                    <p><img src="./images/paxg.png" alt="token"> PAXG</p>
+                    <p>PAX Gold</p>
+                    <p>504,504,458</p>
+                    <p>1,860</p>
+                    <p>15,359,756</p>
+                    <p>271,264</p>
+                    <p class="red-percent">-2.31%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+	
+                <div class="table-row">
+                    <p>89</p>
+                    <p><img src="./images/rndr.png" alt="token"> RNDR</p>
+                    <p>Render Token</p>
+                    <p>503,956,733</p>
+                    <p>1.3943</p>
+                    <p>106,084,702</p>
+                    <p>361,444,954</p>
+                    <p>10.90%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+               
+
+					 
+                <div class="table-row">
+                    <p>90</p>
+                    <p><img src="./images/rune.png" alt="token"> RUNE</p>
+                    <p>THORChain</p>
+                    <p>483,412,528</p>
+                    <p>1.4781</p>
+                    <p>35,099,233</p>
+                    <p>327,056,566</p>
+                    <p>5.93%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div>
+            
+                 
+                
+                					 
+                <div class="table-row">
+                    <p>91</p>
+                    <p><img src="./images/lrc.png" alt="token"> LRC</p>
+                    <p>Loopring</p>
+                    <p>467,124,383</p>
+                    <p>0.351186</p>
+                    <p>26,858,256</p>
+                    <p>1,330,133,546</p>
+                    <p>7.85%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div>
+            
+	
+                
+                <div class="table-row">
+                    <p>92</p>
+                    <p><img src="./images/zil.png" alt="token"> ZIL</p>
+                    <p>Zilliqa</p>
+                    <p>448,957,798</p>
+                    <p>0.028294</p>
+                    <p>28,364,218</p>
+                    <p>15,867,699,447</p>
+                    <p>9.40%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+						
+
+                <div class="table-row">
+                    <p>93</p>
+                    <p><img src="./images/xaut.png" alt="token"> XAUT</p>
+                    <p>Tether Gold</p>
+                    <p>447,651,886</p>
+                    <p>1,816</p>
+                    <p>2,106,212</p>
+                    <p>246,524</p>
+                    <p class="red-percent">-3.10%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+
+					
+                <div class="table-row">
+                    <p>94</p>
+                    <p><img src="./images/cvx.png" alt="token"> CVX</p>
+                    <p>Convex Finance</p>
+                    <p>447,604,160</p>
+                    <p>5.9333</p>
+                    <p>5,528,188</p>
+                    <p>75,439,265</p>
+                    <p>4.70%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>95</p>
+                    <p><img src="./images/osmo.png" alt="token"> OSMO</p>
+                    <p>Osmosis</p>
+                    <p>443,262,708</p>
+                    <p>0.89986</p>
+                    <p>2,754,745</p>
+                    <p>492,590,761</p>
+                    <p>2.97%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>96</p>
+                    <p><img src="./images/wemix.png" alt="token"> WEMIX</p>
+                    <p>WEMIX</p>
+                    <p>440,289,059</p>
+                    <p>1.801</p>
+                    <p>7,222,636</p>
+                    <p>244,467,847</p>
+                    <p>4.31%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>97</p>
+                    <p><img src="./images/1inch.png" alt="token"> 1INCH</p>
+                    <p>1inch</p>
+                    <p>437,193,645</p>
+                    <p>0.524088</p>
+                    <p>16,243,027</p>
+                    <p>834,198,701</p>
+                    <p>6.47%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>98</p>
+                    <p><img src="./images/enj.png" alt="token"> ENJ</p>
+                    <p>Enjin Coin</p>
+                    <p>430,060,502</p>
+                    <p>0.430061</p>
+                    <p>19,951,286</p>
+                    <p>1,000,000,000</p>
+                    <p>7.64%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+
+					
+                <div class="table-row">
+                    <p>99</p>
+                    <p><img src="./images/dydx.png" alt="token"> DYDX</p>
+                    <p>dYdX</p>
+                    <p>420,254,413</p>
+                    <p>2.6895</p>
+                    <p>135,355,939</p>
+                    <p>156,256,174</p>
+                    <p>13.36%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div> 
+                
+					
+                <div class="table-row">
+                    <p>100</p>
+                    <p><img src="./images/t.png" alt="token"> T</p>
+                    <p>Threshold</p>
+                    <p>418,103,721</p>
+                    <p>0.047931</p>
+                    <p>58,959,578</p>
+                    <p>8,722,998,578</p>
+                    <p>33.28%</p>
+                    <a><img src="./images/btc-graph.png" alt="graph"></a>
+                </div>
+            
+
+            </div>
+
+            <div class="table-lower-buttons">
+                <button><a>Next 100</a> <i class="fa-solid fa-arrow-right"></i></button>
+                <button><a>View all</a></button>
+            </div>
+       </section>
+       
+       
+        <section class="news-bar">
+           
+
+            <ul class="news-list">
+                <li><a>Coinbase launches grassroots campaign to influence US lawmakers and regulators <span class="vertical-line"></span> <p class="green-para">The Block - Crypto</p> <span class="vertical-line"></span> <p class="green-para">1h ago</p></a></li>
+
+                <li><a>Top 5 universities to study blockchain in the UK</a> <span class="vertical-line"></span> <p class="green-para">Cointelegraph</p> <span class="vertical-line"></span> <p class="green-para">1h ago</p></a></li>
+               
+                <li><a>UBS says Mt. Gox repayments are unlikely to destabilize bitcoin price</a> <span class="vertical-line"></span> <p class="green-para">The Block - Crypto</p> <span class="vertical-line"></span> <p class="green-para">1h ago</p></a></li>
+               
+                <li><a>Japan’s very own Metaverse is on the way, will accelerate Web3 adoption</a> <span class="vertical-line"></span> <p class="green-para">AMBCrypto</p> <span class="vertical-line"></span> <p class="green-para">2h ago</p></a></li>
+               
+                <li><a>Bitcoin miner Marathon expected to see revenue triple in Q4</a> <span class="vertical-line"></span> <p class="green-para">The Block - Crypto</p> <span class="vertical-line"></span> <p class="green-para">2h ago</p></a></li>
+               
+                <li><a>BTC price needs to close February above 50-month trend line — analysis</a>  <span class="vertical-line"></span> <p class="green-para">Cointelegraph</p> <span class="vertical-line"></span> <p class="green-para">2h ago</p></a></li>
+               
+                <li><a>Ether set to gain market leadership as the ‘stars are aligned,’ say Bernstein analysts</a>  <span class="vertical-line"></span> <p class="green-para">The Block - Crypto</p> <span class="vertical-line"></span> <p class="green-para">2h ago</p></a></li>
+               
+                <li><a>Pro-Ripple lawyer: ‘No consensus that everything other than BTC is security’</a>  <span class="vertical-line"></span> <p class="green-para">AMBCrypto</p> <span class="vertical-line"></span> <p class="green-para">3h ago</p></a></li>
+            </ul>
+
+            <a class="first-icon"><i class="fa-solid fa-chevron-up"></i></a>
+            <a class="second-icon"><i class="fa-solid fa-x"></i></a>
+            
+            <div class="plus-minus">
+                <a><i class="fa-solid fa-minus"></i></a>
+                <a><i class="fa-solid fa-plus"></i></a>
+            </div>
+
+            <div class="share-map">
+                <img src="./images/icon-share.svg" alt="share">
+                <a>Share map</a>
+            </div>
+
+        </section>
+
+       
+       
+        <div class="roll-up-container">
+            <a class="third-icon"><i class="fa-solid fa-chevron-down"></i></a>
+            <a class="fourth-icon"><i class="fa-solid fa-x"></i></a>
+            
+            <div class="left-part">
+                <div class="upper-item">
+                    <div>
+                        <p class="gray">Market Cap</p>
+                        <p class="red">$1,048,872,815,181</p>
+                    </div>
+
+                    <div>
+                        <p class="gray">Change</p>
+                        <p class="red">-0.18%</p>
+                    </div>
+                </div>
+               
+ 
+                <div class="lower-item">
+                    <div>
+                        <p class="gray">Volume (24h)</p>
+                        <p class="light-green">$22,297,932,099</p>
+                    </div>
+
+                    <div>
+                        <p class="gray">Change</p>
+                        <p class="light-green">-54.34%</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-part">
+
+                <div class="news-feed">
+                    <p class="white">1h ago</p>
+                    <p class="white">Avalanche’s [AVAX] fundamentals stay weak despite big-ticket tie ups</p>
+                    <p class="light-green">AMBCrypto</p>
+                </div>
+
+                
+
+                <div class="news-feed">
+                    <p class="white">1h ago</p>
+                    <p class="white">Assessing how Shiba Inu [SHIB] will present an attractive selling opportunity</p>
+                    <p class="light-green">Coindesk</p>
+                </div>
+
+                <div class="news-feed">
+                    <p class="white">2h ago</p>
+                    <p class="white">Alpha Sigma, Transform Ventures Partner on New $100M Crypto-Focused Funds</p>
+                    <p class="light-green">AMBCrypto</p>
+                </div>
+               
+                <div class="news-feed">
+                    <p class="white">2h ago</p>
+                    <p class="white">Crypto Long & Short: Why Layer 2 Protocols Matter</p>
+                    <p class="light-green">The Block - Crypto</p>
+                </div>
+
+                <div class="news-feed">
+                    <p class="white">2h ago</p>
+                    <p class="white">Paul Krugman Is Having a Bitcoin Moment</p>
+                    <p class="light-green">Coindesk</p>
+                </div>
+
+                <div class="news-feed">
+                    <p class="white">2h ago</p>
+                    <p class="white">MakerDAO proposes additional $750M in U.S Treasury Bond investments</p>
+                    <p class="light-green">AMBCrypto</p>
+                </div>
+
+                
+
+                <div class="news-feed">
+                    <p class="white">2h ago</p>
+                    <p class="white">Vitalik Buterin's philanthropic fund donates 15M USDC to UC San Diego</p>
+                    <p class="light-green">Coindesk</p>
+                </div>
+
+                <div class="news-feed">
+                    <p class="white">3h ago</p>
+                    <p class="white">Bitcoin Climbs Above $22K as Powell Softens Tone on Day 2 of Congressional Testimony</p>
+                    <p class="light-green">AMBCrypto</p>
+                </div>
+               
+
+                <div class="news-feed">
+                    <p class="white">3h ago</p>
+                    <p class="white">Bitcoin Climbs Above $22K as Powell Softens Tone on Day 2 of Congressional Testimony</p>
+                    <p class="light-green">The Block - Crypto</p>
+                </div>
+
+                <div class="news-feed">
+                    <p class="white">3h ago</p>
+                    <p class="white">GBTC discount narrows, bitcoin trades above $22,000 as Silvergate leads drop in stocks</p>
+                    <p class="light-green">Coindesk</p>
+                </div>
+                <div class="news-feed">
+                    <p class="white">3h ago</p>
+                    <p class="white">FTM’s short-term price action could recover again only if…</p>
+                    <p class="light-green">AMBCrypto</p>
+                </div>
+
+                <div class="news-feed">
+                    <p class="white">3h ago</p>
+                    <p class="white">Bitcoin clings to $22K as US dollar strength rises to December levels — What's next?</p>
+                    <p class="light-green">The Block - Crypto</p>
+                </div>
+
+                <div class="news-feed">
+                    <p class="white">3h ago</p>
+                    <p class="white">Blur grabs Ethereum NFTs’ biggest share, but that’s not the entire story</p>
+                    <p class="light-green">Coindesk</p>
+                </div>
+               
+                <div class="news-feed">
+                    <p class="white">3h ago</p>
+                    <p class="white">Women Are Being Shut Out Of Web3; These Women Are Building Anyway</p>
+                    <p class="light-green">AMBCrypto</p>
+                </div>
+
+                <div class="news-feed">
+                    <p class="white">3h ago</p>
+                    <p class="white">Death in the metaverse: Web3 aims to offer new answers to old questions</p>
+                    <p class="light-green">The Block - Crypto</p>
+                </div>
+
+                <div class="news-feed">
+                    <p class="white">3h ago</p>
+                    <p class="white">Stargate Finance Token Down 8% on Coinbase Delisting</p>
+                    <p class="light-green">Coindesk</p>
+                </div>
+
+                <div class="news-feed">
+                    <p class="white">3h ago</p>
+                    <p class="white">Tim Draper joins EtherMail’s advisory board, leads $4 million raise</p>
+                    <p class="light-green">AMBCrypto</p>
+                </div>
+
+                
+
+                <div class="news-feed">
+                    <p class="white">4h ago</p>
+                    <p class="white">Tel Aviv Stock Exchange’s crypto trading proposal a ‘closed-loop system’</p>
+                    <p class="light-green">The Block - Crypto</p>
+                </div>
+               
+                <div class="news-feed">
+                    <p class="white">4h ago</p>
+                    <p class="white">Coinbase announces Wallet-as-a-Service product to simplify web3 onboarding</p>
+                    <p class="light-green">Coindesk</p>
+                </div>
+
+                <div class="news-feed">
+                    <p class="white">4h ago</p>
+                    <p class="white">Are Ethereum’s staker holdings undervalued? New data suggests…</p>
+                    <p class="light-green">AMBCrypto</p>
+                </div>
+
+                <div class="news-feed">
+                    <p class="white">4h ago</p>
+                    <p class="white">Immutable makes C-suite hires from Meta, Ava Labs</p>
+                    <p class="light-green">Coindesk</p>
+                </div>
+                <div class="news-feed">
+                    <p class="white">4h ago</p>
+                    <p class="white">Generative Art NFTs Are Coming to Solana With Code Canvas</p>
+                    <p class="light-green">The Block - Crypto</p>
+                </div>
+
+                <div class="news-feed">
+                    <p class="white">4h ago</p>
+                    <p class="white">Coinbase launches wallet-as-a-service for businesses</p>
+                    <p class="light-green">Coindesk</p>
+                </div>
+
+                <div class="news-feed">
+                    <p class="white">4h ago</p>
+                    <p class="white">It’s not the end of crypto: EU asset manager gives 5 reasons why</p>
+                    <p class="light-green">AMBCrypto</p>
+                </div>
+               
+                <div class="news-feed">
+                    <p class="white">4h ago</p>
+                    <p class="white">Crypto Payroll Startup Toku Raises $20M</p>
+                    <p class="light-green">The Block - Crypto</p>
+                </div>
+
+                <div class="news-feed">
+                    <p class="white">4h ago</p>
+                    <p class="white">First Mover Americas: Bitcoin Belted by Rate Fears</p>
+                    <p class="light-green">Coindesk</p>
+                </div>
+
+                <div class="news-feed">
+                    <p class="white">4h ago</p>
+                    <p class="white">Bitcoin thought leaders weigh the pros and cons of Ordinals</p>
+                    <p class="light-green">AMBCrypto</p>
+                </div>
+
+                <div class="news-feed">
+                    <p class="white">4h ago</p>
+                    <p class="white">Payments Technology Firm Nuvei Q4 Crypto Revenue Drops 58% From Year Ago</p>
+                    <p class="light-green">The Block - Crypto</p>
+                </div>
+
+                <div class="news-feed">
+                    <p class="white">4h ago</p>
+                    <p class="white">Transform Ventures launches holding company for blockchain with $100M AUM</p>
+                    <p class="light-green">Coindesk</p>
+                </div>
+
+                <div class="news-feed">
+                    <p class="white">4h ago</p>
+                    <p class="white">The metaverse is getting a greenhouse and a garden full of NFT flowers</p>
+                    <p class="light-green">AMBCrypto</p>
+                </div>
+               
+                
+
+                <div class="news-feed">
+                    <p class="white">4h ago</p>
+                    <p class="white">Ripple CEO believes ‘only way to move forward’ is…</p>
+                    <p class="light-green">The Block - Crypto</p>
+                </div>
+
+                <div class="news-feed">
+                    <p class="white">4h ago</p>
+                    <p class="white">7 ways women can earn passive income through cryptocurrency</p>
+                    <p class="light-green">Coindesk</p>
+                </div>
+                <div class="news-feed">
+                    <p class="white">4h ago</p>
+                    <p class="white">Here’s where MATIC’s short sellers can look to book their profits</p>
+                    <p class="light-green">AMBCrypto</p>
+                </div>
+
+                <div class="news-feed">
+                    <p class="white">4h ago</p>
+                    <p class="white">Shiba Inu announces launch of Shibarium Public Beta this week</p>
+                    <p class="light-green">The Block - Crypto</p>
+                </div>
+
+                <div class="news-feed">
+                    <p class="white">5h ago</p>
+                    <p class="white">Delegate Cash: The protocol trying to save Bored Ape owners from themselves</p>
+                    <p class="light-green">Coindesk</p>
+                </div>
+               
+                <div class="news-feed">
+                    <p class="white">5h ago</p>
+                    <p class="white">Nansen officially releases Query product for on-chain analytics</p>
+                    <p class="light-green">AMBCrypto</p>
+                </div>
+
+                <div class="news-feed">
+                    <p class="white">5h ago</p>
+                    <p class="white">B2Broker builds partnerships offering cutting-edge technology and solutions</p>
+                    <p class="light-green">The Block - Crypto</p>
+                </div>
+
+                <div class="news-feed">
+                    <p class="white">5h ago</p>
+                    <p class="white">Cathie Wood’s Ark Invest buys more Coinbase and Robinhood</p>
+                    <p class="light-green">AMBCrypto</p>
+                </div>
+
+               
+
+                <div class="news-feed">
+                    <p class="white">5h ago</p>
+                    <p class="white">Polygon Reddit NFTs are popular, but is MATIC really gaining from it</p>
+                    <p class="light-green">Coindesk</p>
+                </div>
+
+                <div class="news-feed">
+                    <p class="white">5h ago</p>
+                    <p class="white">Gauging the impact of Boosted Pools on Balancer’s [BAL] market trend</p>
+                    <p class="light-green">AMBCrypto</p>
+                </div>
+               
+                <div class="news-feed">
+                    <p class="white">5h ago</p>
+                    <p class="white">Crypto And AI: How Avorak AI Helps Bridge The Gap In 2023</p>
+                    <p class="light-green">The Block - Crypto</p>
+                </div>
+
+                <div class="news-feed">
+                    <p class="white">5h ago</p>
+                    <p class="white">Yuga Labs’ TwelveFold auction had this effect on Apecoin [APE]</p>
+                    <p class="light-green">Coindesk</p>
+                </div>
+
+                <div class="news-feed">
+                    <p class="white">5h ago</p>
+                    <p class="white">Block solicits feedback for bitcoin ‘mining development kit’</p>
+                    <p class="light-green">AMBCrypto</p>
+                </div>
+                <div class="news-feed">
+                    <p class="white">5h ago</p>
+                    <p class="white">Binance.US gets green light to buy Voyager Digital assets</p>
+                    <p class="light-green">The Block - Crypto</p>
+                </div>
+
+                <div class="news-feed">
+                    <p class="white">5h ago</p>
+                    <p class="white">OpenSea, ConsenSys among prized crypto startups with shares available at big discounts</p>
+                    <p class="light-green">Coindesk</p>
+                </div>
+
+               
+               
+                <div class="news-feed">
+                    <p class="white">5h ago</p>
+                    <p class="white">Assessing how Shiba Inu [SHIB] will present an attractive selling opportunity</p>
+                    <p class="light-green">AMBCrypto</p>
+                </div>
+
+                <div class="news-feed">
+                    <p class="white">5h ago</p>
+                    <p class="white">Crypto Long & Short: Why Layer 2 Protocols Matter</p>
+                    <p class="light-green">The Block - Crypto</p>
+                </div>
+
+                <div class="news-feed">
+                    <p class="white">5h ago</p>
+                    <p class="white">Paul Krugman Is Having a Bitcoin Moment</p>
+                    <p class="light-green">Coindesk</p>
+                </div>
+
+                <div class="news-feed">
+                    <p class="white">5h ago</p>
+                    <p class="white">MakerDAO proposes additional $750M in U.S Treasury Bond investments</p>
+                    <p class="light-green">The Block - Crypto</p>
+                </div>
+
+                
+
+
+            </div>
+
+        </div>
+
+    </main>
+    
+    
+    
+    <section class="ham-cover"></section>
+    <section class="hamburger-container">
+        
+        <div class="ham-logo">
+            <a><img src="./images/logo.svg" alt="logo"></a>
+        </div>
+
+        <div class="ham-item">
+            <a>Coins</a>
+        </div>
+        
+        <div class="ham-item">
+            <a>Exchanges</a>
+        </div>
+        
+        <div class="ham-item">
+            <a>NFT <p class="yellow">BETA</p></a>
+        </div>
+        
+        <div class="ham-item">
+            <a>News <p class="light-green">NEW</p></a>
+        </div>
+        
+        <div class="ham-item">
+            <a>Watchlist</a>
+        </div>
+        
+        <div class="ham-item">
+            <a>Newsletter</a>
+        </div>
+        
+        <div class="ham-item">
+            <a>Charts</a>
+        </div>
+        
+        <div class="ham-item">
+            <a>Glossary</a>
+        </div>
+        
+        <div class="ham-item">
+            <a>Press Releases</a>
+        </div>
+        
+        <div class="ham-item">
+            <a>Events</a>
+        </div>
+        
+        <div class="ham-item">
+            <a>FAQ</a>
+        </div>
+        
+        <div class="ham-item">
+            <a class="about">About <i id="about-btn" class="fa-solid fa-chevron-down"></i></a>
+                
+        </div>
+        
+        <div class="about-list">
+            <a>General Info</a>
+            <a>Careers</a>
+            <a>Methodology</a>
+            <a>Press kit</a>
+            <a>Privacy Policy</a>
+        </div>
+
+        <div class="ham-item">
+            <a class="color-green">Advertising</a>
+        </div>
+
+        <div class="ham-item">
+            <a class="color-red">Newsletter</a>
+        </div>
+
+        <div class="ham-social">
+            <a><i class="fa-brands fa-telegram"></i></a>
+            <a><i class="fa-brands fa-twitter"></i></a>
+            <a><i class="fa-solid  fa-envelope"></i></a>
+        </div>
+
+        <div class="ham-copyright">
+            <span>Copyright © 2023 Coin360.com All Rights Reserved.</span>
+        </div>
+    </section>
+
+    <section class="filter-container">
+        <div class="close-filter">
+            <a><i class="fa-solid fa-x"></i></a>
+        </div>
+        <div class="filter-cap">
+            <div>
+                <p>Market Cap</p>
+                <span>$965,014,441,455</span>
+            </div>
+            <p>-5.98%</p>
+        </div>
+        <div class="filter-vol">
+            <div>
+                <p>Vol 24h</p>
+                <span>$76,616,397,865</span>
+            </div>
+            <p>99.31%</p>
+        </div>
+        <section class="filter-items">
+            <div class="reset-all">
+                <a>Reset All</a>
+            </div>
+            
+
+            <div class="filter-item">
+                <label for="display on map">1.Display on map</label>
+
+                <div class="select">
+                    <div class="on-show"><p>Coins and Tokens</p> <i class="fa-solid fa-chevron-down"></i></div>
+                    
+                    <div class="options">
+                        <div><p>Coins and Tokens</p></div>
+                        <div><p>Coins</p></div>
+                        <div><p>Tokens</p></div>
+                    </div>
+                    
+                </div>
+            </div>  
+            
+            <div class="filter-item">
+                <label for="display on map">2.Top</label>
+
+                <div class="select">
+                    <div class="on-show"><p>All</p> <i class="fa-solid fa-chevron-down"></i></div>
+                    
+                    <div class="options">
+                        <div><p>All</p></div>
+                        <div><p>50 losers</p></div>
+                        <div><p>100 losers</p></div>
+                        <div><p>200 losers</p></div>
+                        <div><p>50 gainers</p></div>
+                        <div><p>100 gainers</p></div>
+                        <div><p>200 gainers</p></div>
+                    </div>
+                    
+                </div>
+            </div>            
+            
+            <div class="filter-item">
+                <label for="display on map">3.Period</label>
+
+                <div class="select">
+                    <div class="on-show"><p>1 day</p> <i class="fa-solid fa-chevron-down"></i></div>
+                    
+                    <div class="options">
+                        <div><p>1 hour</p></div>
+                        <div><p>1 day</p></div>
+                        <div><p>7 days</p></div>
+                        <div><p>1 month</p></div>
+                        <div><p>Custom</p></div>
+                    </div>
+                    
+                </div>
+            </div>            
+            
+            <div class="filter-item">
+                <label for="display on map">4.Base currency</label>
+
+                <div class="select">
+                    <div class="on-show"><p>USD</p> <i class="fa-solid fa-chevron-down"></i></div>
+                    
+                    <div class="options">
+                        <div><p>USD</p></div>
+                        <div><p>USDT</p></div>
+                        <div><p>BTC</p></div>
+                        <div><p>ETH</p></div>
+                        <div><p>EOS</p></div>
+                        <div><p>EUR</p></div>
+                        <div><p>GBP</p></div>
+                        <div><p>CNY</p></div>
+                        <div><p>JPY</p></div>
+                        <div><p>CAD</p></div>
+                        <div><p>BRL</p></div>
+                        <div><p>TRY</p></div>
+                        <div><p>RUB</p></div>
+                        <div><p>IRR</p></div>
+                        <div><p>UAH</p></div>
+                        <div><p>INR </p></div>
+                        <div><p>SGD</p></div>
+                        <div><p>HKD</p></div>
+                        <div><p>KZT</p></div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="filter-item">
+                <label for="display on map">5.Block size depends on</label>
+
+                <div class="half-select">
+                    <div><p>Market Cap</p></div>
+                    <div><p>Volume</p></div>
+                    
+                </div>
+            </div> 
+
+            <div class="filter-item">
+                <label for="display on map">6. M.cap range (USD)</label>
+
+                <div class="filter-range">
+                    <div class="range-result">
+                        <p>from<span class="filter-min-result">0</span>to<span class="filter-max-result">435.6b</span></p>
+                        <div class="buttons">
+                            <button id="filter-reset-range"><a>Reset</a></button>
+                            <button><a>apply</a></button>
+                        </div>
+                    </div>
+                    <div class="slider-range">
+                        <div class="slider-line">
+                                <div class="filter-dot-1"></div>
+                                <div class="filter-dot-2"></div>
+                                <div class="filter-dot-3"></div>
+                                <div class="filter-dot-4"></div>
+                                <div class="filter-dot-5"></div>
+                                <div class="filter-dot-6"></div>
+                                <div class="filter-price-1">0</div>
+                                <div class="filter-price-2">100</div>
+                                <div class="filter-price-3">10K</div>
+                                <div class="filter-price-4">1M</div>
+                                <div class="filter-price-5">1B</div>
+                                <div class="filter-price-6">435.6B</div>
+                                <input type="range" class="filter-range-left" min="0" max="4356000" value="0" step="1000">
+                                <input type="range" class="filter-range-right" min="0" max="4356000" value="4356000" step="1000">
+
+                        </div> 
+                    </div>
+                    
+
+                </div>
+            </div> 
+
+            <div class="filter-item">
+                <label for="display on map">7.Hide from the map</label>
+
+                <div class="select">
+                    <div class="on-show"><p>Select...</p> <i class="fa-solid fa-chevron-down"></i></div>
+                    
+                    <div class="options">
+                        <div class="filter-token"><div><img src="./images/BTC.svg" alt="token"> <p>Bitcoin</p></div> <span>BTC</span></div>
+                        <div class="filter-token"><div><img src="./images/ETH.svg" alt="token"> <p>Ethereum</p></div> <span>ETH</span></div>
+                        <div class="filter-token"><div><img src="./images/USDT.svg" alt="token"> <p>Tether</p></div> <span>USDT</span></div>
+                        <div class="filter-token"><div><img src="./images/usdc.png" alt="token"> <p>USD coin</p></div> <span>USDC</span></div>
+                        <div class="filter-token"><div><img src="./images/ripple.png" alt="token"> <p>Ripple</p></div> <span>XRP</span></div>
+                        <div class="filter-token"><div><img src="./images/ada.png" alt="token"> <p>Cardano</p></div> <span>ADA</span></div>
+                        <div class="filter-token"><div><img src="./images/bnb.png" alt="token"> <p>Binance coin</p></div> <span>BNB</span></div>
+                        <div class="filter-token"><div><img src="./images/matic.png" alt="token"> <p>Polygan</p></div> <span>MATIC</span></div>
+                        <div class="filter-token"><div><img src="./images/sol.png" alt="token"> <p>Solana</p></div> <span>SOL</span></div>
+                        <div class="filter-token"><div><img src="./images/busd.png" alt="token"> <p>Binance USD</p></div> <span>BUSD</span></div>
+                        <div class="filter-token"><div><img src="./images/doge.png" alt="token"> <p>Dodge coin</p></div> <span>DODGE</span></div>
+                        <div class="filter-token"><div><img src="./images/polkadot.png" alt="token"> <p>Polkadot</p></div> <span>DOT</span></div>
+                       
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </section>
+    
+
+    <sectoin class="return-scroll-btn">
+        <a><i class="fa-solid fa-arrow-up"></i></a>
+    </sectoin>
+
+
+
+    <footer>
+
+        <section class="footer">
+            <div class="left-footer">
+                <a><img src="./images/logo.svg" alt="logo"></a>
+                <p class="version">v5.4.10</p>
+                <p> © 2017 - 2023 COIN360.com. All Rights Reserved.</p>
+            </div>
+
+            <div class="right-footer">
+                <a>hello@coin360.com</a>
+                <a><i class="fa-brands fa-telegram"></i></a>
+                <a><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </section>
+
+
+
+
+
+    </footer>
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
