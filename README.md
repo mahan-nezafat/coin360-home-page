@@ -1,5 +1,5 @@
-# coin360-landing-page
-coin360.com responsive landing page with HTML,CSS,CSS-FLEXBOX,JS
+# coin360-home-page
+coin360.com responsive home page with HTML,CSS,CSS-FLEXBOX,JS
 
 # description 
 this project was created with HTML, Css, Javascript, css-flexbox and I tried to make it exacly like the website design some of the features that it has are 
