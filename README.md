@@ -11,3 +11,11 @@ challenges :
 * how to make different size tiles so that info can be put in them, note that the original site has used canvas with the help of their api so the tiles can
 be updated every few seconds as I am not privy to thier api I just impelented it another way
 * how to make the page changer so that the transition be without glitches
+
+# Live Link
+
+the page is currently live on https://coin360-home-page.vercel.app/
+
+# copy-right
+
+this impelentation is just for practice purposes and for non-commercial use
